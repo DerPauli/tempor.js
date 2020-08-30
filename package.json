@@ -1,0 +1,22 @@
+{
+  "name": "tempor.js",
+  "version": "1.0.0",
+  "description": "Discord Bot for ephemeral meetings on discord. The goal is to bring Discord as a technology into the professional IT workforce.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerPauli/tempor.js.git"
+  },
+  "author": "Paul Merker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DerPauli/tempor.js/issues"
+  },
+  "homepage": "https://github.com/DerPauli/tempor.js#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
+}
