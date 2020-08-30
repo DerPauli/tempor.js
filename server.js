@@ -3,8 +3,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-require('dotenv').config();
+const setup = require('./util/setup-bot.js');
 
+require('dotenv').config();
 
 
 /*
@@ -16,15 +17,12 @@ const BOT_TOKEN = process.env.BOT_TOKEN;
 
 
 client.on('ready', () => {
-    console.log('I am ready!');
+    setup(client);
+    console.log('Bot running');
 });
 
 
 client.on('message', message => {
-
-    if (message.content === 'ping') {
-        message.channel.send('pong');
-    }
 });
 
 
